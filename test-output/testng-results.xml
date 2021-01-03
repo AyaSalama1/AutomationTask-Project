@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="181126" started-at="2021-01-03T04:28:03 EET" finished-at="2021-01-03T04:31:04 EET">
+    <groups>
+      <group name="RegisteredCheckOut">
+        <method signature="ShoppingCartTest.checkPayByBankWire()[pri:14, instance:testPackage.ShoppingCartTest@56aac163]" name="checkPayByBankWire" class="testPackage.ShoppingCartTest"/>
+        <method signature="ShoppingCartTest.checkPayByCheck()[pri:12, instance:testPackage.ShoppingCartTest@56aac163]" name="checkPayByCheck" class="testPackage.ShoppingCartTest"/>
+        <method signature="ShoppingCartTest.checkPaymentConfirmation()[pri:15, instance:testPackage.ShoppingCartTest@56aac163]" name="checkPaymentConfirmation" class="testPackage.ShoppingCartTest"/>
+        <method signature="ShoppingCartTest.checkTheAvailablePaymentMethods()[pri:11, instance:testPackage.ShoppingCartTest@56aac163]" name="checkTheAvailablePaymentMethods" class="testPackage.ShoppingCartTest"/>
+        <method signature="ShoppingCartTest.checkTheAvailableShippingOptions()[pri:6, instance:testPackage.ShoppingCartTest@56aac163]" name="checkTheAvailableShippingOptions" class="testPackage.ShoppingCartTest"/>
+        <method signature="ShoppingCartTest.checkoutWithAcceptingTerms()[pri:8, instance:testPackage.ShoppingCartTest@56aac163]" name="checkoutWithAcceptingTerms" class="testPackage.ShoppingCartTest"/>
+        <method signature="ShoppingCartTest.checkoutWithNotAcceptingTerms()[pri:10, instance:testPackage.ShoppingCartTest@56aac163]" name="checkoutWithNotAcceptingTerms" class="testPackage.ShoppingCartTest"/>
+        <method signature="ShoppingCartTest.registeredUserCheckOut()[pri:5, instance:testPackage.ShoppingCartTest@56aac163]" name="registeredUserCheckOut" class="testPackage.ShoppingCartTest"/>
+      </group> <!-- RegisteredCheckOut -->
+    </groups>
+    <test name="Default test" duration-ms="181126" started-at="2021-01-03T04:28:03 EET" finished-at="2021-01-03T04:31:04 EET">
+      <class name="testPackage.ShoppingCartTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="beforeClass" is-config="true" duration-ms="4842" started-at="2021-01-03T04:28:03 EET" finished-at="2021-01-03T04:28:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="AddSingleProductAddToCart()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="AddSingleProductAddToCart" duration-ms="21678" started-at="2021-01-03T04:28:08 EET" finished-at="2021-01-03T04:28:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSingleProductAddToCart -->
+        <test-method status="PASS" signature="guestCheckout()[pri:4, instance:testPackage.ShoppingCartTest@56aac163]" name="guestCheckout" duration-ms="14035" started-at="2021-01-03T04:28:29 EET" finished-at="2021-01-03T04:28:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestCheckout -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="beforeMethod" is-config="true" duration-ms="5321" started-at="2021-01-03T04:28:43 EET" finished-at="2021-01-03T04:28:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="registeredUserCheckOut()[pri:5, instance:testPackage.ShoppingCartTest@56aac163]" name="registeredUserCheckOut" duration-ms="6955" started-at="2021-01-03T04:28:49 EET" finished-at="2021-01-03T04:28:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeredUserCheckOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="afterMethod" is-config="true" duration-ms="1326" started-at="2021-01-03T04:28:56 EET" finished-at="2021-01-03T04:28:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="beforeMethod" is-config="true" duration-ms="3000" started-at="2021-01-03T04:28:57 EET" finished-at="2021-01-03T04:29:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkTheAvailableShippingOptions()[pri:6, instance:testPackage.ShoppingCartTest@56aac163]" name="checkTheAvailableShippingOptions" duration-ms="6458" started-at="2021-01-03T04:29:00 EET" finished-at="2021-01-03T04:29:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheAvailableShippingOptions -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="afterMethod" is-config="true" duration-ms="1520" started-at="2021-01-03T04:29:06 EET" finished-at="2021-01-03T04:29:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="editQuantityByIncrease()[pri:7, instance:testPackage.ShoppingCartTest@56aac163]" name="editQuantityByIncrease" duration-ms="8138" started-at="2021-01-03T04:29:08 EET" finished-at="2021-01-03T04:29:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editQuantityByIncrease -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="beforeMethod" is-config="true" duration-ms="3282" started-at="2021-01-03T04:29:16 EET" finished-at="2021-01-03T04:29:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkoutWithAcceptingTerms()[pri:8, instance:testPackage.ShoppingCartTest@56aac163]" name="checkoutWithAcceptingTerms" duration-ms="8363" started-at="2021-01-03T04:29:19 EET" finished-at="2021-01-03T04:29:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutWithAcceptingTerms -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="afterMethod" is-config="true" duration-ms="1715" started-at="2021-01-03T04:29:28 EET" finished-at="2021-01-03T04:29:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="editQuantityBydecrease()[pri:9, instance:testPackage.ShoppingCartTest@56aac163]" name="editQuantityBydecrease" duration-ms="9503" started-at="2021-01-03T04:29:29 EET" finished-at="2021-01-03T04:29:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editQuantityBydecrease -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="beforeMethod" is-config="true" duration-ms="3971" started-at="2021-01-03T04:29:39 EET" finished-at="2021-01-03T04:29:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkoutWithNotAcceptingTerms()[pri:10, instance:testPackage.ShoppingCartTest@56aac163]" name="checkoutWithNotAcceptingTerms" duration-ms="8403" started-at="2021-01-03T04:29:43 EET" finished-at="2021-01-03T04:29:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutWithNotAcceptingTerms -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="afterMethod" is-config="true" duration-ms="2462" started-at="2021-01-03T04:29:51 EET" finished-at="2021-01-03T04:29:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="beforeMethod" is-config="true" duration-ms="3094" started-at="2021-01-03T04:29:54 EET" finished-at="2021-01-03T04:29:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkTheAvailablePaymentMethods()[pri:11, instance:testPackage.ShoppingCartTest@56aac163]" name="checkTheAvailablePaymentMethods" duration-ms="7484" started-at="2021-01-03T04:29:57 EET" finished-at="2021-01-03T04:30:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheAvailablePaymentMethods -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="afterMethod" is-config="true" duration-ms="1563" started-at="2021-01-03T04:30:04 EET" finished-at="2021-01-03T04:30:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="beforeMethod" is-config="true" duration-ms="2795" started-at="2021-01-03T04:30:06 EET" finished-at="2021-01-03T04:30:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkPayByCheck()[pri:12, instance:testPackage.ShoppingCartTest@56aac163]" name="checkPayByCheck" duration-ms="9361" started-at="2021-01-03T04:30:09 EET" finished-at="2021-01-03T04:30:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPayByCheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="afterMethod" is-config="true" duration-ms="2264" started-at="2021-01-03T04:30:18 EET" finished-at="2021-01-03T04:30:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AddMultipleProductAddToCart()[pri:13, instance:testPackage.ShoppingCartTest@56aac163]" name="AddMultipleProductAddToCart" duration-ms="9299" started-at="2021-01-03T04:30:20 EET" finished-at="2021-01-03T04:30:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMultipleProductAddToCart -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="beforeMethod" is-config="true" duration-ms="2731" started-at="2021-01-03T04:30:30 EET" finished-at="2021-01-03T04:30:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkPayByBankWire()[pri:14, instance:testPackage.ShoppingCartTest@56aac163]" name="checkPayByBankWire" duration-ms="9279" started-at="2021-01-03T04:30:32 EET" finished-at="2021-01-03T04:30:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPayByBankWire -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="afterMethod" is-config="true" duration-ms="1652" started-at="2021-01-03T04:30:42 EET" finished-at="2021-01-03T04:30:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="beforeMethod" is-config="true" duration-ms="2536" started-at="2021-01-03T04:30:43 EET" finished-at="2021-01-03T04:30:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkPaymentConfirmation()[pri:15, instance:testPackage.ShoppingCartTest@56aac163]" name="checkPaymentConfirmation" duration-ms="10844" started-at="2021-01-03T04:30:46 EET" finished-at="2021-01-03T04:30:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPaymentConfirmation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="afterMethod" is-config="true" duration-ms="2839" started-at="2021-01-03T04:30:57 EET" finished-at="2021-01-03T04:30:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="removeProductFromCart()[pri:16, instance:testPackage.ShoppingCartTest@56aac163]" name="removeProductFromCart" duration-ms="4133" started-at="2021-01-03T04:30:59 EET" finished-at="2021-01-03T04:31:04 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Your shopping cart is empty.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Your shopping cart is empty.]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at objectModels.CartCheckoutPage.assertThatCartIsEmpty(CartCheckoutPage.java:74)
+at testPackage.ShoppingCartTest.removeProductFromCart(ShoppingCartTest.java:224)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testPackage.ShoppingCartTest@56aac163]" name="afterClass" is-config="true" duration-ms="177" started-at="2021-01-03T04:31:04 EET" finished-at="2021-01-03T04:31:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testPackage.ShoppingCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
